@@ -376,7 +376,7 @@ flex-wrap: wrap;
     margin-bottom: 30px;
 
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+    
     box-sizing: border-box;
     
     
@@ -395,10 +395,11 @@ flex-wrap: wrap;
 }
 
 .cards .foto {
-    margin-bottom: 20px;
+    margin-bottom: -4px;
 }
 
 .cards .title {
+    padding-top: 20px;
     margin-bottom: 4px;
     padding-left: 24px;
 }
@@ -408,6 +409,14 @@ flex-wrap: wrap;
     padding-left: 24px;
 }
 
+.borders {
+    
+border: 1px solid #eeeeee;;
+border-top-width: 0;
+box-sizing: border-box;
+
+   
+}
 address {
     font-style: normal;
 }
